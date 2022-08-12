@@ -1,0 +1,15 @@
+export const getColor = (number) => {
+    if (number === 0) return ['#eee1c9', 'black']
+    else if (number === 2) return ['#eee4da', 'black']
+    else if (number === 4) return ['#eee1c9', 'black']
+    else if (number === 8) return ['#f3b27a', 'white']
+    else if (number === 16) return ['#f69664', 'white']
+    else if (number === 32) return ['#f77c5f', 'white']
+    else if (number === 64) return ['#f75f3b', 'white']
+    else if (number === 128) return ['#edd073', 'white']
+    else if (number === 256) return ['#edcc62', 'white']
+    else if (number === 512) return ['#edc950', 'white']
+    else if (number === 1024) return ['#edc53f', 'white']
+    else if (number === 2048) return ['#edc22e', 'white']
+    else return ['rgb(182, 57, 28)', '#f9f6f2']
+}

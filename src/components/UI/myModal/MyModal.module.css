@@ -1,0 +1,33 @@
+.myModal {
+    position: absolute;
+    top: 311px;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    display: none;
+    background: rgba(0,0,0, 0.3);
+    z-index: 10;
+}
+
+
+.myModal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 600px) {
+    .myModal {
+        top: 289px;
+        width: 400px;
+        height: 400px;
+
+    }
+}
+
+@media (max-width: 420px) {
+    .myModal {       
+        top: 227px;
+        width: 280px;
+        height: 280px;
+    }
+}
